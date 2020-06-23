@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+django-shell-plus = "*"
+flake8 = "*"
+ipdb = "*"
+ipython = "*"
+isort = "*"
+mypy = "*"
+pep8-naming = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
+pytest-mock = "*"
+responses = "*"
+snapshottest = "*"
+
+[packages]
+django = "*"
+django-environ = "*"
+psycopg2 = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
