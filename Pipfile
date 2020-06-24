@@ -18,6 +18,7 @@ pytest-django = "*"
 pytest-mock = "*"
 responses = "*"
 snapshottest = "*"
+django-stubs = "*"
 
 [packages]
 django = "*"
